@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+vehicle_warn_env/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Large media/data artifacts
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Model checkpoints or large binary artifacts (keep small model weights manually if needed)
+*.ckpt
+*.ckpt.*
+
