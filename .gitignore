@@ -23,8 +23,16 @@ env/
 *.avi
 *.mov
 *.mkv
+*.jpg
+*.txt
+*.json
 
 # Model checkpoints or large binary artifacts (keep small model weights manually if needed)
 *.ckpt
 *.ckpt.*
 
+#dataset folders
+BDD_YOLO/
+bdd100k/
+yolo_dataset/
+output/
